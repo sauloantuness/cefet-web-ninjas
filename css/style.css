@@ -1,0 +1,71 @@
+body {
+	margin: 20px;
+	background-color: #EEE;
+	font-family: Helvetica;
+}
+
+img, iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+img.logo {
+	width: 200px;
+}
+
+h1, h2 {
+	font-family: Helvetica;
+}
+
+a:link {
+	color: blue;
+	text-decoration: undeline;
+}
+
+a:visited {
+	color: green;
+	text-decoration: undeline;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+a:active {
+	color: green;
+	text-decoration: none;
+}
+
+a[href^=http]:before {
+	content: ' ';
+	background: url(../img/globo.png) no-repeat;
+	padding-left: 18px;
+}
+
+.nota {
+	color: #999;
+}
+
+p > strong {
+	font-size: 30px;
+	padding: 5px 10px;
+	background-color: purple;
+	color: white;
+}
+
+p > em {
+	font-size: 20px;
+}
+
+strong, h1, h2, h3, h4, h5, h6 {
+	color: purple;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: comic
+}
+
+p {
+	text-align: justify;
+}
